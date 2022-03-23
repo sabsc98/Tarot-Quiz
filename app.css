@@ -1,0 +1,55 @@
+:root {
+    background-color: darkolivegreen;
+    font-size: 62.5%;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    color: wheat;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 5.4rem;
+    color: goldenrod;
+    margin-bottom: 5rem;
+}
+
+h1 > span {
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+/* UTILITIES */
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto; 
+    /*As the screen gets bigger or smaller this keeps everything centered/*
+
+}
